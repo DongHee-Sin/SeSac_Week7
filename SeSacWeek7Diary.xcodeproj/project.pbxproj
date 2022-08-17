@@ -17,6 +17,8 @@
 		D0CEAF4828AB1FCD00F30EF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0CEAF4628AB1FCD00F30EF2 /* Main.storyboard */; };
 		D0CEAF4A28AB1FCD00F30EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CEAF4928AB1FCD00F30EF2 /* Assets.xcassets */; };
 		D0CEAF4D28AB1FCD00F30EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0CEAF4B28AB1FCD00F30EF2 /* LaunchScreen.storyboard */; };
+		D0E6E61428ACBA27008B0C4F /* CodeBaseKakaoProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6E61328ACBA27008B0C4F /* CodeBaseKakaoProfileViewController.swift */; };
+		D0E6E61928ACCFEB008B0C4F /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6E61828ACCFEB008B0C4F /* UIButton+Extension.swift */; };
 		D0F8382E28AB2C65006BFBC7 /* SeSacUIFramwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F8382B28AB2C54006BFBC7 /* SeSacUIFramwork.framework */; };
 		D0F8382F28AB2C65006BFBC7 /* SeSacUIFramwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0F8382B28AB2C54006BFBC7 /* SeSacUIFramwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0F8383228AB3A6D006BFBC7 /* WalkThrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F8383128AB3A6D006BFBC7 /* WalkThrough.storyboard */; };
@@ -69,6 +71,8 @@
 		D0CEAF4928AB1FCD00F30EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0CEAF4C28AB1FCD00F30EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0CEAF4E28AB1FCD00F30EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E6E61328ACBA27008B0C4F /* CodeBaseKakaoProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBaseKakaoProfileViewController.swift; sourceTree = "<group>"; };
+		D0E6E61828ACCFEB008B0C4F /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		D0F8382528AB2C54006BFBC7 /* SeSacUIFramwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SeSacUIFramwork.xcodeproj; path = ../SeSacUIFramwork/SeSacUIFramwork.xcodeproj; sourceTree = "<group>"; };
 		D0F8383128AB3A6D006BFBC7 /* WalkThrough.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WalkThrough.storyboard; sourceTree = "<group>"; };
 		D0F8383328AB3A91006BFBC7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 				D08F88D628AC71C300441952 /* CodeViewController.swift */,
 				D08F88DB28AC823200441952 /* CodeSnapViewController.swift */,
 				D08F88DD28AC8C0F00441952 /* CodeSnap2ViewController.swift */,
+				D0E6E61328ACBA27008B0C4F /* CodeBaseKakaoProfileViewController.swift */,
 			);
 			path = CodeBase;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 		D0CEAF3F28AB1FCD00F30EF2 /* SeSacWeek7Diary */ = {
 			isa = PBXGroup;
 			children = (
+				D0E6E61728ACCFE0008B0C4F /* Extension */,
 				D083FAFE28ABE26B00931B25 /* App */,
 				D0F8383028AB3A4C006BFBC7 /* WalkThrough */,
 				D08F88D328AC71B100441952 /* CodeBase */,
@@ -140,6 +146,14 @@
 				D0CEAF4E28AB1FCD00F30EF2 /* Info.plist */,
 			);
 			path = SeSacWeek7Diary;
+			sourceTree = "<group>";
+		};
+		D0E6E61728ACCFE0008B0C4F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D0E6E61828ACCFEB008B0C4F /* UIButton+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		D0F8381928AB20E5006BFBC7 /* Frameworks */ = {
@@ -277,8 +291,10 @@
 				D08F88DE28AC8C0F00441952 /* CodeSnap2ViewController.swift in Sources */,
 				D0CEAF4328AB1FCD00F30EF2 /* SceneDelegate.swift in Sources */,
 				D0F8383628AB40C1006BFBC7 /* SecondViewController.swift in Sources */,
+				D0E6E61928ACCFEB008B0C4F /* UIButton+Extension.swift in Sources */,
 				D08F88DC28AC823200441952 /* CodeSnapViewController.swift in Sources */,
 				D0F8383828AB40CD006BFBC7 /* ThirdViewController.swift in Sources */,
+				D0E6E61428ACBA27008B0C4F /* CodeBaseKakaoProfileViewController.swift in Sources */,
 				D08F88D728AC71C300441952 /* CodeViewController.swift in Sources */,
 				D0F8383A28AB40E8006BFBC7 /* WalkThroughViewController.swift in Sources */,
 				D0F8383428AB3A91006BFBC7 /* FirstViewController.swift in Sources */,

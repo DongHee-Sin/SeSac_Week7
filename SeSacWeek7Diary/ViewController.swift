@@ -25,9 +25,10 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
         
         
-        let vc = CodeSnap2ViewController()
-        vc.modalPresentationStyle = .overFullScreen
-        present(vc, animated: true)
+        let vc = CodeBaseKakaoProfileViewController()
+        let navi = UINavigationController(rootViewController: vc)
+        navi.modalPresentationStyle = .overFullScreen
+        present(navi, animated: true)
         
         
 //        testOpen()
