@@ -72,19 +72,29 @@
                                     <constraint firstAttribute="height" constant="5" id="KAZ-0Z-wl5"/>
                                 </constraints>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="folder.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="khz-kr-z00">
+                                <rect key="frame" x="339" y="70" width="50" height="47.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="aHW-GD-5M7"/>
+                                    <constraint firstAttribute="width" constant="50" id="fEn-6k-div"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBrownColor"/>
                         <constraints>
+                            <constraint firstItem="khz-kr-z00" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="25" id="31b-vS-7n8"/>
                             <constraint firstItem="fmb-3l-R3y" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="30" id="4TP-hY-s6j"/>
                             <constraint firstItem="9rE-fi-X9K" firstAttribute="top" secondItem="fmb-3l-R3y" secondAttribute="bottom" constant="8" id="BdJ-kg-cYc"/>
                             <constraint firstItem="9rE-fi-X9K" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="CGp-zb-606"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="fmb-3l-R3y" secondAttribute="trailing" constant="30" id="ayZ-dh-4cB"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="khz-kr-z00" secondAttribute="trailing" constant="25" id="qpS-yQ-Soe"/>
                             <constraint firstItem="fmb-3l-R3y" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="uId-Zx-WlW"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="blackView" destination="9rE-fi-X9K" id="SYi-7B-pM3"/>
+                        <outlet property="testImage" destination="khz-kr-z00" id="Qa5-y6-6NX"/>
                         <outlet property="tutorialLabel" destination="fmb-3l-R3y" id="gCt-TG-8M7"/>
                     </connections>
                 </viewController>
@@ -124,6 +134,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="folder.fill" catalog="system" width="128" height="97"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

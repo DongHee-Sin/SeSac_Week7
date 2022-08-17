@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D08F88D728AC71C300441952 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F88D628AC71C300441952 /* CodeViewController.swift */; };
+		D08F88DA28AC81B200441952 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D08F88D928AC81B200441952 /* SnapKit */; };
+		D08F88DC28AC823200441952 /* CodeSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F88DB28AC823200441952 /* CodeSnapViewController.swift */; };
+		D08F88DE28AC8C0F00441952 /* CodeSnap2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F88DD28AC8C0F00441952 /* CodeSnap2ViewController.swift */; };
 		D0CEAF4128AB1FCD00F30EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CEAF4028AB1FCD00F30EF2 /* AppDelegate.swift */; };
 		D0CEAF4328AB1FCD00F30EF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CEAF4228AB1FCD00F30EF2 /* SceneDelegate.swift */; };
 		D0CEAF4528AB1FCD00F30EF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CEAF4428AB1FCD00F30EF2 /* ViewController.swift */; };
@@ -54,6 +58,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D08F88D628AC71C300441952 /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
+		D08F88DB28AC823200441952 /* CodeSnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnapViewController.swift; sourceTree = "<group>"; };
+		D08F88DD28AC8C0F00441952 /* CodeSnap2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnap2ViewController.swift; sourceTree = "<group>"; };
 		D0CEAF3D28AB1FCD00F30EF2 /* SeSacWeek7Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSacWeek7Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CEAF4028AB1FCD00F30EF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0CEAF4228AB1FCD00F30EF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,12 +83,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F8382E28AB2C65006BFBC7 /* SeSacUIFramwork.framework in Frameworks */,
+				D08F88DA28AC81B200441952 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D083FAFE28ABE26B00931B25 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D0CEAF4028AB1FCD00F30EF2 /* AppDelegate.swift */,
+				D0CEAF4228AB1FCD00F30EF2 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D08F88D328AC71B100441952 /* CodeBase */ = {
+			isa = PBXGroup;
+			children = (
+				D08F88D628AC71C300441952 /* CodeViewController.swift */,
+				D08F88DB28AC823200441952 /* CodeSnapViewController.swift */,
+				D08F88DD28AC8C0F00441952 /* CodeSnap2ViewController.swift */,
+			);
+			path = CodeBase;
+			sourceTree = "<group>";
+		};
 		D0CEAF3428AB1FCD00F30EF2 = {
 			isa = PBXGroup;
 			children = (
@@ -103,9 +130,9 @@
 		D0CEAF3F28AB1FCD00F30EF2 /* SeSacWeek7Diary */ = {
 			isa = PBXGroup;
 			children = (
+				D083FAFE28ABE26B00931B25 /* App */,
 				D0F8383028AB3A4C006BFBC7 /* WalkThrough */,
-				D0CEAF4028AB1FCD00F30EF2 /* AppDelegate.swift */,
-				D0CEAF4228AB1FCD00F30EF2 /* SceneDelegate.swift */,
+				D08F88D328AC71B100441952 /* CodeBase */,
 				D0CEAF4428AB1FCD00F30EF2 /* ViewController.swift */,
 				D0CEAF4628AB1FCD00F30EF2 /* Main.storyboard */,
 				D0CEAF4928AB1FCD00F30EF2 /* Assets.xcassets */,
@@ -160,6 +187,9 @@
 			dependencies = (
 			);
 			name = SeSacWeek7Diary;
+			packageProductDependencies = (
+				D08F88D928AC81B200441952 /* SnapKit */,
+			);
 			productName = SeSacWeek7Diary;
 			productReference = D0CEAF3D28AB1FCD00F30EF2 /* SeSacWeek7Diary.app */;
 			productType = "com.apple.product-type.application";
@@ -188,6 +218,9 @@
 				Base,
 			);
 			mainGroup = D0CEAF3428AB1FCD00F30EF2;
+			packageReferences = (
+				D08F88D828AC81B200441952 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = D0CEAF3E28AB1FCD00F30EF2 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
@@ -241,9 +274,12 @@
 			files = (
 				D0CEAF4528AB1FCD00F30EF2 /* ViewController.swift in Sources */,
 				D0CEAF4128AB1FCD00F30EF2 /* AppDelegate.swift in Sources */,
+				D08F88DE28AC8C0F00441952 /* CodeSnap2ViewController.swift in Sources */,
 				D0CEAF4328AB1FCD00F30EF2 /* SceneDelegate.swift in Sources */,
 				D0F8383628AB40C1006BFBC7 /* SecondViewController.swift in Sources */,
+				D08F88DC28AC823200441952 /* CodeSnapViewController.swift in Sources */,
 				D0F8383828AB40CD006BFBC7 /* ThirdViewController.swift in Sources */,
+				D08F88D728AC71C300441952 /* CodeViewController.swift in Sources */,
 				D0F8383A28AB40E8006BFBC7 /* WalkThroughViewController.swift in Sources */,
 				D0F8383428AB3A91006BFBC7 /* FirstViewController.swift in Sources */,
 			);
@@ -465,6 +501,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D08F88D828AC81B200441952 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D08F88D928AC81B200441952 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D08F88D828AC81B200441952 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D0CEAF3528AB1FCD00F30EF2 /* Project object */;
 }
