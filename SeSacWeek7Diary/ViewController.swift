@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
         
         
-        let vc = CodeBaseKakaoProfileViewController()
+        let vc = CodeBaseBeminViewController()
         let navi = UINavigationController(rootViewController: vc)
         navi.modalPresentationStyle = .overFullScreen
         present(navi, animated: true)
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
 //        let text = "WWDC What's New!"
 //        sesacShowActivityViewController(shareImage: img, shareURL: shareURL, shareText: text)
         
-        OpenWebView.presentWebViewController(self, url: "https://naver.com", transitionStyle: .present)
+        //OpenWebView.presentWebViewController(self, url: "https://naver.com", transitionStyle: .present)
         
     }
 

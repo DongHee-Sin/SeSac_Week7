@@ -52,17 +52,17 @@ class CodeBaseKakaoProfileViewController: UIViewController {
     }()
     let selfChatButton: UIButton = {
         let view = UIButton(type: .system)
-        view.setConfiguration(title: "나와의 채팅", img: UIImage(systemName: "bubble.left.fill"))
+        view.setConfiguration(title: "나와의 채팅", img: UIImage(systemName: "bubble.left.fill"), placement: .top, padding: 20)
         return view
     }()
     let editProfileButton: UIButton = {
         let view = UIButton(type: .system)
-        view.setConfiguration(title: "프로필 편집", img: UIImage(systemName: "pencil"))
+        view.setConfiguration(title: "프로필 편집", img: UIImage(systemName: "pencil"), placement: .top, padding: 20)
         return view
     }()
     let kakaoStoryButton: UIButton = {
         let view = UIButton(type: .system)
-        view.setConfiguration(title: "카카오스토리", img: UIImage(systemName: "bubble.left.fill"))
+        view.setConfiguration(title: "카카오스토리", img: UIImage(systemName: "bubble.left.fill"), placement: .top, padding: 20)
         return view
     }()
     

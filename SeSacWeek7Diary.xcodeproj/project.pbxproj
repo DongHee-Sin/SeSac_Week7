@@ -19,6 +19,7 @@
 		D0CEAF4D28AB1FCD00F30EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0CEAF4B28AB1FCD00F30EF2 /* LaunchScreen.storyboard */; };
 		D0E6E61428ACBA27008B0C4F /* CodeBaseKakaoProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6E61328ACBA27008B0C4F /* CodeBaseKakaoProfileViewController.swift */; };
 		D0E6E61928ACCFEB008B0C4F /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6E61828ACCFEB008B0C4F /* UIButton+Extension.swift */; };
+		D0E6E61B28ACF10D008B0C4F /* CodeBaseBeminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6E61A28ACF10D008B0C4F /* CodeBaseBeminViewController.swift */; };
 		D0F8382E28AB2C65006BFBC7 /* SeSacUIFramwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F8382B28AB2C54006BFBC7 /* SeSacUIFramwork.framework */; };
 		D0F8382F28AB2C65006BFBC7 /* SeSacUIFramwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0F8382B28AB2C54006BFBC7 /* SeSacUIFramwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0F8383228AB3A6D006BFBC7 /* WalkThrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F8383128AB3A6D006BFBC7 /* WalkThrough.storyboard */; };
@@ -73,6 +74,7 @@
 		D0CEAF4E28AB1FCD00F30EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0E6E61328ACBA27008B0C4F /* CodeBaseKakaoProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBaseKakaoProfileViewController.swift; sourceTree = "<group>"; };
 		D0E6E61828ACCFEB008B0C4F /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		D0E6E61A28ACF10D008B0C4F /* CodeBaseBeminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBaseBeminViewController.swift; sourceTree = "<group>"; };
 		D0F8382528AB2C54006BFBC7 /* SeSacUIFramwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SeSacUIFramwork.xcodeproj; path = ../SeSacUIFramwork/SeSacUIFramwork.xcodeproj; sourceTree = "<group>"; };
 		D0F8383128AB3A6D006BFBC7 /* WalkThrough.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WalkThrough.storyboard; sourceTree = "<group>"; };
 		D0F8383328AB3A91006BFBC7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				D08F88DB28AC823200441952 /* CodeSnapViewController.swift */,
 				D08F88DD28AC8C0F00441952 /* CodeSnap2ViewController.swift */,
 				D0E6E61328ACBA27008B0C4F /* CodeBaseKakaoProfileViewController.swift */,
+				D0E6E61A28ACF10D008B0C4F /* CodeBaseBeminViewController.swift */,
 			);
 			path = CodeBase;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E6E61B28ACF10D008B0C4F /* CodeBaseBeminViewController.swift in Sources */,
 				D0CEAF4528AB1FCD00F30EF2 /* ViewController.swift in Sources */,
 				D0CEAF4128AB1FCD00F30EF2 /* AppDelegate.swift in Sources */,
 				D08F88DE28AC8C0F00441952 /* CodeSnap2ViewController.swift in Sources */,
