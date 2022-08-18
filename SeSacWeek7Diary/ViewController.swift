@@ -6,50 +6,46 @@
 //
 
 import UIKit
-
 import SeSacUIFramwork
-
+import SnapKit
 
 class ViewController: UIViewController {
-
-    var name = "고래밥"
     
-    var age = 22
+    let nameButton: UIButton = {
+        let view = UIButton()
+        view.setTitle("Nickname", for: .normal)
+        view.backgroundColor = .black
+        view.tintColor = .white
+        return view
+    }()
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        configure()
+        
+        nameButton.addTarget(self, action: #selector(nameButtonClicked), for: .touchUpInside)
     }
 
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
-        
-        let vc = CodeBaseBeminViewController()
-        let navi = UINavigationController(rootViewController: vc)
-        navi.modalPresentationStyle = .overFullScreen
-        present(navi, animated: true)
-        
-        
-//        testOpen()
-        
-//        showSesacAlert(title: "TestAlert", message: "Test Massage", buttonTitle: "Save") { _ in
-//            self.view.backgroundColor = .lightGray
-//        }
-        
-//        let img = UIImage(systemName: "star.fill")!
-//        let shareURL = "https://www.apple.com"
-//        let text = "WWDC What's New!"
-//        sesacShowActivityViewController(shareImage: img, shareURL: shareURL, shareText: text)
-        
-        //OpenWebView.presentWebViewController(self, url: "https://naver.com", transitionStyle: .present)
-        
+    @objc func nameButtonClicked() {
+        let vc = ProfileViewController()
+        vc.saveButtonActionHandler = {
+            self.nameButton.setTitle(vc.nameTextField.text, for: .normal)
+        }
+        present(vc, animated: true)
     }
 
     
-    // objc???
-//    override func testOpen() {
-//        super.testOpen()
-//    }
+    func configure() {
+        view.addSubview(nameButton)
+        
+        nameButton.snp.makeConstraints { make in
+            make.width.height.equalTo(200)
+            make.center.equalTo(view)
+        }
+    }
 }
 

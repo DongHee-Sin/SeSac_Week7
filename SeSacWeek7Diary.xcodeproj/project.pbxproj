@@ -11,6 +11,8 @@
 		D08F88DA28AC81B200441952 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D08F88D928AC81B200441952 /* SnapKit */; };
 		D08F88DC28AC823200441952 /* CodeSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F88DB28AC823200441952 /* CodeSnapViewController.swift */; };
 		D08F88DE28AC8C0F00441952 /* CodeSnap2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F88DD28AC8C0F00441952 /* CodeSnap2ViewController.swift */; };
+		D096F7C328ADDF1400BCBC4C /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096F7C228ADDF1400BCBC4C /* UIViewController+Extension.swift */; };
+		D096F7C728ADE60E00BCBC4C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096F7C628ADE60E00BCBC4C /* ProfileViewController.swift */; };
 		D0CEAF4128AB1FCD00F30EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CEAF4028AB1FCD00F30EF2 /* AppDelegate.swift */; };
 		D0CEAF4328AB1FCD00F30EF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CEAF4228AB1FCD00F30EF2 /* SceneDelegate.swift */; };
 		D0CEAF4528AB1FCD00F30EF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CEAF4428AB1FCD00F30EF2 /* ViewController.swift */; };
@@ -64,6 +66,8 @@
 		D08F88D628AC71C300441952 /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
 		D08F88DB28AC823200441952 /* CodeSnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnapViewController.swift; sourceTree = "<group>"; };
 		D08F88DD28AC8C0F00441952 /* CodeSnap2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnap2ViewController.swift; sourceTree = "<group>"; };
+		D096F7C228ADDF1400BCBC4C /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		D096F7C628ADE60E00BCBC4C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D0CEAF3D28AB1FCD00F30EF2 /* SeSacWeek7Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSacWeek7Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CEAF4028AB1FCD00F30EF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0CEAF4228AB1FCD00F30EF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 				D08F88DD28AC8C0F00441952 /* CodeSnap2ViewController.swift */,
 				D0E6E61328ACBA27008B0C4F /* CodeBaseKakaoProfileViewController.swift */,
 				D0E6E61A28ACF10D008B0C4F /* CodeBaseBeminViewController.swift */,
+				D096F7C628ADE60E00BCBC4C /* ProfileViewController.swift */,
 			);
 			path = CodeBase;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				D0E6E61828ACCFEB008B0C4F /* UIButton+Extension.swift */,
+				D096F7C228ADDF1400BCBC4C /* UIViewController+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -293,6 +299,7 @@
 				D0CEAF4528AB1FCD00F30EF2 /* ViewController.swift in Sources */,
 				D0CEAF4128AB1FCD00F30EF2 /* AppDelegate.swift in Sources */,
 				D08F88DE28AC8C0F00441952 /* CodeSnap2ViewController.swift in Sources */,
+				D096F7C328ADDF1400BCBC4C /* UIViewController+Extension.swift in Sources */,
 				D0CEAF4328AB1FCD00F30EF2 /* SceneDelegate.swift in Sources */,
 				D0F8383628AB40C1006BFBC7 /* SecondViewController.swift in Sources */,
 				D0E6E61928ACCFEB008B0C4F /* UIButton+Extension.swift in Sources */,
@@ -300,6 +307,7 @@
 				D0F8383828AB40CD006BFBC7 /* ThirdViewController.swift in Sources */,
 				D0E6E61428ACBA27008B0C4F /* CodeBaseKakaoProfileViewController.swift in Sources */,
 				D08F88D728AC71C300441952 /* CodeViewController.swift in Sources */,
+				D096F7C728ADE60E00BCBC4C /* ProfileViewController.swift in Sources */,
 				D0F8383A28AB40E8006BFBC7 /* WalkThroughViewController.swift in Sources */,
 				D0F8383428AB3A91006BFBC7 /* FirstViewController.swift in Sources */,
 			);
