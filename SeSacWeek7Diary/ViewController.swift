@@ -24,9 +24,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        configure()
+        //configure()
+        //nameButton.addTarget(self, action: #selector(nameButtonClicked), for: .touchUpInside)
+    }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
-        nameButton.addTarget(self, action: #selector(nameButtonClicked), for: .touchUpInside)
+        let vc = CodeBaseAppleMusicViewController()
+        vc.modalPresentationStyle = .overFullScreen
+        present(vc, animated: true)
     }
 
     
