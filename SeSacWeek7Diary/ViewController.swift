@@ -45,7 +45,7 @@ class ViewController: UIViewController {
     
     
     @objc func nameButtonClicked() {
-        let vc = NetflixViewController()
+        let vc = SignUpViewController()
         vc.modalPresentationStyle = .overFullScreen
         
         // 1. 클로저

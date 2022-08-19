@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00947EC28AFD05000B66DC4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00947EB28AFD05000B66DC4 /* SignUpViewController.swift */; };
+		D00947EE28AFD05800B66DC4 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00947ED28AFD05800B66DC4 /* SignUpView.swift */; };
+		D00947F028AFD3CB00B66DC4 /* SignUpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00947EF28AFD3CB00B66DC4 /* SignUpTextField.swift */; };
 		D08F88D728AC71C300441952 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F88D628AC71C300441952 /* CodeViewController.swift */; };
 		D08F88DA28AC81B200441952 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D08F88D928AC81B200441952 /* SnapKit */; };
 		D08F88DC28AC823200441952 /* CodeSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F88DB28AC823200441952 /* CodeSnapViewController.swift */; };
@@ -73,6 +76,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D00947EB28AFD05000B66DC4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D00947ED28AFD05800B66DC4 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		D00947EF28AFD3CB00B66DC4 /* SignUpTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTextField.swift; sourceTree = "<group>"; };
 		D08F88D628AC71C300441952 /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
 		D08F88DB28AC823200441952 /* CodeSnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnapViewController.swift; sourceTree = "<group>"; };
 		D08F88DD28AC8C0F00441952 /* CodeSnap2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnap2ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +126,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D00947E728AFCFB200B66DC4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D0A09F5428AF6AD0005D7429 /* NetflixViewController.swift */,
+				D0A09F5928AF6B95005D7429 /* NetflixView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D00947EA28AFCFC600B66DC4 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				D00947EB28AFD05000B66DC4 /* SignUpViewController.swift */,
+				D00947ED28AFD05800B66DC4 /* SignUpView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 		D083FAFE28ABE26B00931B25 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,8 +170,8 @@
 		D0A09F5828AF6B65005D7429 /* Netflix */ = {
 			isa = PBXGroup;
 			children = (
-				D0A09F5428AF6AD0005D7429 /* NetflixViewController.swift */,
-				D0A09F5928AF6B95005D7429 /* NetflixView.swift */,
+				D00947E728AFCFB200B66DC4 /* Main */,
+				D00947EA28AFCFC600B66DC4 /* SignUp */,
 			);
 			path = Netflix;
 			sourceTree = "<group>";
@@ -157,6 +181,7 @@
 			children = (
 				D0A09F5C28AF7854005D7429 /* WhiteTextButton.swift */,
 				D0A09F6028AF9038005D7429 /* CircleImageView.swift */,
+				D00947EF28AFD3CB00B66DC4 /* SignUpTextField.swift */,
 			);
 			path = NetflixCustomView;
 			sourceTree = "<group>";
@@ -381,14 +406,17 @@
 				D0A4F5D628AF2CFE004E0B13 /* BlackRadiusTextField.swift in Sources */,
 				D08F88DC28AC823200441952 /* CodeSnapViewController.swift in Sources */,
 				D0BB025828AE999B00B4EEB5 /* CodeBaseAppleMusicViewController.swift in Sources */,
+				D00947EE28AFD05800B66DC4 /* SignUpView.swift in Sources */,
 				D0A09F5528AF6AD0005D7429 /* NetflixViewController.swift in Sources */,
 				D0A4F5D228AF179B004E0B13 /* WriteView.swift in Sources */,
 				D0F8383828AB40CD006BFBC7 /* ThirdViewController.swift in Sources */,
 				D0E6E61428ACBA27008B0C4F /* CodeBaseKakaoProfileViewController.swift in Sources */,
 				D08F88D728AC71C300441952 /* CodeViewController.swift in Sources */,
 				D096F7C728ADE60E00BCBC4C /* ProfileViewController.swift in Sources */,
+				D00947F028AFD3CB00B66DC4 /* SignUpTextField.swift in Sources */,
 				D0A4F5D028AF16AD004E0B13 /* BaseView.swift in Sources */,
 				D0F8383A28AB40E8006BFBC7 /* WalkThroughViewController.swift in Sources */,
+				D00947EC28AFD05000B66DC4 /* SignUpViewController.swift in Sources */,
 				D0F8383428AB3A91006BFBC7 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

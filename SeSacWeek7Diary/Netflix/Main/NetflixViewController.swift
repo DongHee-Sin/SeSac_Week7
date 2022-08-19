@@ -13,6 +13,7 @@ class NetflixViewController: BaseViewController {
     
     // loadView
     let netflixView = NetflixView()
+    
     override func loadView() {
         self.view = netflixView
     }
@@ -20,9 +21,5 @@ class NetflixViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-    
-    
-    override func configure() {
     }
 }
