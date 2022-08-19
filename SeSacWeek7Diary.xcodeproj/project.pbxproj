@@ -13,6 +13,11 @@
 		D08F88DE28AC8C0F00441952 /* CodeSnap2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F88DD28AC8C0F00441952 /* CodeSnap2ViewController.swift */; };
 		D096F7C328ADDF1400BCBC4C /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096F7C228ADDF1400BCBC4C /* UIViewController+Extension.swift */; };
 		D096F7C728ADE60E00BCBC4C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096F7C628ADE60E00BCBC4C /* ProfileViewController.swift */; };
+		D0A4F5CB28AF1275004E0B13 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4F5CA28AF1275004E0B13 /* BaseViewController.swift */; };
+		D0A4F5CE28AF1443004E0B13 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4F5CD28AF1443004E0B13 /* WriteViewController.swift */; };
+		D0A4F5D028AF16AD004E0B13 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4F5CF28AF16AD004E0B13 /* BaseView.swift */; };
+		D0A4F5D228AF179B004E0B13 /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4F5D128AF179B004E0B13 /* WriteView.swift */; };
+		D0A4F5D628AF2CFE004E0B13 /* BlackRadiusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4F5D528AF2CFE004E0B13 /* BlackRadiusTextField.swift */; };
 		D0BB025828AE999B00B4EEB5 /* CodeBaseAppleMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BB025728AE999B00B4EEB5 /* CodeBaseAppleMusicViewController.swift */; };
 		D0CEAF4128AB1FCD00F30EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CEAF4028AB1FCD00F30EF2 /* AppDelegate.swift */; };
 		D0CEAF4328AB1FCD00F30EF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CEAF4228AB1FCD00F30EF2 /* SceneDelegate.swift */; };
@@ -69,6 +74,11 @@
 		D08F88DD28AC8C0F00441952 /* CodeSnap2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnap2ViewController.swift; sourceTree = "<group>"; };
 		D096F7C228ADDF1400BCBC4C /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		D096F7C628ADE60E00BCBC4C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D0A4F5CA28AF1275004E0B13 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D0A4F5CD28AF1443004E0B13 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
+		D0A4F5CF28AF16AD004E0B13 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		D0A4F5D128AF179B004E0B13 /* WriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
+		D0A4F5D528AF2CFE004E0B13 /* BlackRadiusTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackRadiusTextField.swift; sourceTree = "<group>"; };
 		D0BB025728AE999B00B4EEB5 /* CodeBaseAppleMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBaseAppleMusicViewController.swift; sourceTree = "<group>"; };
 		D0CEAF3D28AB1FCD00F30EF2 /* SeSacWeek7Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSacWeek7Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CEAF4028AB1FCD00F30EF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +135,33 @@
 			path = CodeBase;
 			sourceTree = "<group>";
 		};
+		D0A4F5C728AF1256004E0B13 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D0A4F5D728AF2D07004E0B13 /* CustomView */,
+				D0A4F5CA28AF1275004E0B13 /* BaseViewController.swift */,
+				D0A4F5CF28AF16AD004E0B13 /* BaseView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D0A4F5CC28AF141A004E0B13 /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				D0A4F5CD28AF1443004E0B13 /* WriteViewController.swift */,
+				D0A4F5D128AF179B004E0B13 /* WriteView.swift */,
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		D0A4F5D728AF2D07004E0B13 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				D0A4F5D528AF2CFE004E0B13 /* BlackRadiusTextField.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		D0CEAF3428AB1FCD00F30EF2 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +183,8 @@
 		D0CEAF3F28AB1FCD00F30EF2 /* SeSacWeek7Diary */ = {
 			isa = PBXGroup;
 			children = (
+				D0A4F5CC28AF141A004E0B13 /* Diary */,
+				D0A4F5C728AF1256004E0B13 /* Utility */,
 				D0E6E61728ACCFE0008B0C4F /* Extension */,
 				D083FAFE28ABE26B00931B25 /* App */,
 				D0F8383028AB3A4C006BFBC7 /* WalkThrough */,
@@ -298,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A4F5CE28AF1443004E0B13 /* WriteViewController.swift in Sources */,
 				D0E6E61B28ACF10D008B0C4F /* CodeBaseBeminViewController.swift in Sources */,
 				D0CEAF4528AB1FCD00F30EF2 /* ViewController.swift in Sources */,
 				D0CEAF4128AB1FCD00F30EF2 /* AppDelegate.swift in Sources */,
@@ -305,13 +345,17 @@
 				D096F7C328ADDF1400BCBC4C /* UIViewController+Extension.swift in Sources */,
 				D0CEAF4328AB1FCD00F30EF2 /* SceneDelegate.swift in Sources */,
 				D0F8383628AB40C1006BFBC7 /* SecondViewController.swift in Sources */,
+				D0A4F5CB28AF1275004E0B13 /* BaseViewController.swift in Sources */,
 				D0E6E61928ACCFEB008B0C4F /* UIButton+Extension.swift in Sources */,
+				D0A4F5D628AF2CFE004E0B13 /* BlackRadiusTextField.swift in Sources */,
 				D08F88DC28AC823200441952 /* CodeSnapViewController.swift in Sources */,
 				D0BB025828AE999B00B4EEB5 /* CodeBaseAppleMusicViewController.swift in Sources */,
+				D0A4F5D228AF179B004E0B13 /* WriteView.swift in Sources */,
 				D0F8383828AB40CD006BFBC7 /* ThirdViewController.swift in Sources */,
 				D0E6E61428ACBA27008B0C4F /* CodeBaseKakaoProfileViewController.swift in Sources */,
 				D08F88D728AC71C300441952 /* CodeViewController.swift in Sources */,
 				D096F7C728ADE60E00BCBC4C /* ProfileViewController.swift in Sources */,
+				D0A4F5D028AF16AD004E0B13 /* BaseView.swift in Sources */,
 				D0F8383A28AB40E8006BFBC7 /* WalkThroughViewController.swift in Sources */,
 				D0F8383428AB3A91006BFBC7 /* FirstViewController.swift in Sources */,
 			);
