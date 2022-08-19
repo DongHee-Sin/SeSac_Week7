@@ -13,6 +13,10 @@
 		D08F88DE28AC8C0F00441952 /* CodeSnap2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F88DD28AC8C0F00441952 /* CodeSnap2ViewController.swift */; };
 		D096F7C328ADDF1400BCBC4C /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096F7C228ADDF1400BCBC4C /* UIViewController+Extension.swift */; };
 		D096F7C728ADE60E00BCBC4C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096F7C628ADE60E00BCBC4C /* ProfileViewController.swift */; };
+		D0A09F5528AF6AD0005D7429 /* NetflixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A09F5428AF6AD0005D7429 /* NetflixViewController.swift */; };
+		D0A09F5A28AF6B95005D7429 /* NetflixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A09F5928AF6B95005D7429 /* NetflixView.swift */; };
+		D0A09F5D28AF7854005D7429 /* WhiteTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A09F5C28AF7854005D7429 /* WhiteTextButton.swift */; };
+		D0A09F6128AF9038005D7429 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A09F6028AF9038005D7429 /* CircleImageView.swift */; };
 		D0A4F5CB28AF1275004E0B13 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4F5CA28AF1275004E0B13 /* BaseViewController.swift */; };
 		D0A4F5CE28AF1443004E0B13 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4F5CD28AF1443004E0B13 /* WriteViewController.swift */; };
 		D0A4F5D028AF16AD004E0B13 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4F5CF28AF16AD004E0B13 /* BaseView.swift */; };
@@ -74,6 +78,10 @@
 		D08F88DD28AC8C0F00441952 /* CodeSnap2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnap2ViewController.swift; sourceTree = "<group>"; };
 		D096F7C228ADDF1400BCBC4C /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		D096F7C628ADE60E00BCBC4C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D0A09F5428AF6AD0005D7429 /* NetflixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixViewController.swift; sourceTree = "<group>"; };
+		D0A09F5928AF6B95005D7429 /* NetflixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixView.swift; sourceTree = "<group>"; };
+		D0A09F5C28AF7854005D7429 /* WhiteTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteTextButton.swift; sourceTree = "<group>"; };
+		D0A09F6028AF9038005D7429 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 		D0A4F5CA28AF1275004E0B13 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		D0A4F5CD28AF1443004E0B13 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
 		D0A4F5CF28AF16AD004E0B13 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
@@ -135,10 +143,29 @@
 			path = CodeBase;
 			sourceTree = "<group>";
 		};
+		D0A09F5828AF6B65005D7429 /* Netflix */ = {
+			isa = PBXGroup;
+			children = (
+				D0A09F5428AF6AD0005D7429 /* NetflixViewController.swift */,
+				D0A09F5928AF6B95005D7429 /* NetflixView.swift */,
+			);
+			path = Netflix;
+			sourceTree = "<group>";
+		};
+		D0A09F5B28AF7812005D7429 /* NetflixCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				D0A09F5C28AF7854005D7429 /* WhiteTextButton.swift */,
+				D0A09F6028AF9038005D7429 /* CircleImageView.swift */,
+			);
+			path = NetflixCustomView;
+			sourceTree = "<group>";
+		};
 		D0A4F5C728AF1256004E0B13 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				D0A4F5D728AF2D07004E0B13 /* CustomView */,
+				D0A09F5B28AF7812005D7429 /* NetflixCustomView */,
+				D0A4F5D728AF2D07004E0B13 /* DiaryCustomView */,
 				D0A4F5CA28AF1275004E0B13 /* BaseViewController.swift */,
 				D0A4F5CF28AF16AD004E0B13 /* BaseView.swift */,
 			);
@@ -154,12 +181,12 @@
 			path = Diary;
 			sourceTree = "<group>";
 		};
-		D0A4F5D728AF2D07004E0B13 /* CustomView */ = {
+		D0A4F5D728AF2D07004E0B13 /* DiaryCustomView */ = {
 			isa = PBXGroup;
 			children = (
 				D0A4F5D528AF2CFE004E0B13 /* BlackRadiusTextField.swift */,
 			);
-			path = CustomView;
+			path = DiaryCustomView;
 			sourceTree = "<group>";
 		};
 		D0CEAF3428AB1FCD00F30EF2 = {
@@ -183,6 +210,7 @@
 		D0CEAF3F28AB1FCD00F30EF2 /* SeSacWeek7Diary */ = {
 			isa = PBXGroup;
 			children = (
+				D0A09F5828AF6B65005D7429 /* Netflix */,
 				D0A4F5CC28AF141A004E0B13 /* Diary */,
 				D0A4F5C728AF1256004E0B13 /* Utility */,
 				D0E6E61728ACCFE0008B0C4F /* Extension */,
@@ -339,10 +367,13 @@
 			files = (
 				D0A4F5CE28AF1443004E0B13 /* WriteViewController.swift in Sources */,
 				D0E6E61B28ACF10D008B0C4F /* CodeBaseBeminViewController.swift in Sources */,
+				D0A09F5D28AF7854005D7429 /* WhiteTextButton.swift in Sources */,
+				D0A09F5A28AF6B95005D7429 /* NetflixView.swift in Sources */,
 				D0CEAF4528AB1FCD00F30EF2 /* ViewController.swift in Sources */,
 				D0CEAF4128AB1FCD00F30EF2 /* AppDelegate.swift in Sources */,
 				D08F88DE28AC8C0F00441952 /* CodeSnap2ViewController.swift in Sources */,
 				D096F7C328ADDF1400BCBC4C /* UIViewController+Extension.swift in Sources */,
+				D0A09F6128AF9038005D7429 /* CircleImageView.swift in Sources */,
 				D0CEAF4328AB1FCD00F30EF2 /* SceneDelegate.swift in Sources */,
 				D0F8383628AB40C1006BFBC7 /* SecondViewController.swift in Sources */,
 				D0A4F5CB28AF1275004E0B13 /* BaseViewController.swift in Sources */,
@@ -350,6 +381,7 @@
 				D0A4F5D628AF2CFE004E0B13 /* BlackRadiusTextField.swift in Sources */,
 				D08F88DC28AC823200441952 /* CodeSnapViewController.swift in Sources */,
 				D0BB025828AE999B00B4EEB5 /* CodeBaseAppleMusicViewController.swift in Sources */,
+				D0A09F5528AF6AD0005D7429 /* NetflixViewController.swift in Sources */,
 				D0A4F5D228AF179B004E0B13 /* WriteView.swift in Sources */,
 				D0F8383828AB40CD006BFBC7 /* ThirdViewController.swift in Sources */,
 				D0E6E61428ACBA27008B0C4F /* CodeBaseKakaoProfileViewController.swift in Sources */,
